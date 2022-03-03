@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Dekko&family=Itim&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,700;1,600&family=Norican&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    background: #ccc;
+}
+
+p {
+    font-family: 'Mali', cursive;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    display: block;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    min-height: 50px;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+footer p {
+    left: 50%;
+    transform: translate(-50%, 50%);
+    bottom: 50%;
+    position: absolute;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    min-height: 100vh;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li:hover {
+    transform: translateY(5px);
+}
+
+nav ul li a {
+    font-size: 1.2em;
+    color: #111;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 3em;
+    border-bottom: 1px solid #111;
+    padding-bottom: 25px;
+}
+
+h2 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h3 {
+    text-align: center;
+}
+
+h3 a {
+    font-family: 'Comic Neue', cursive;
+    font-size: 1.2em;
+    color: #111;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+
+article {
+    padding: 25px;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+}
+
+article .center {
+    width: 100%;
+}
+
+article h3 {
+    padding: 5px;
+}
+
+article p {
+    padding: 10px;
+    text-align: justify;
+}
+
+article div {
+    text-align: right;
+}
+
+form {
+    position: relative;
+    padding: 150px 0;
+    width: 500px;
+    margin: auto;
+}
+
+form input {
+    width: 500px;
+}
+
+form textarea {
+    width: 500px;
+    resize: none;
+    height: 250px;
+}
+
+form button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+}
